@@ -43,7 +43,7 @@ maven项目可直接添加依赖
 	</dependency>
 ```
 
-#####2).流程引擎配置
+####2).流程引擎配置
 
 增加snaker的spring配置文件
 
@@ -132,7 +132,7 @@ maven项目可直接添加依赖
 	<aop:aspectj-autoproxy proxy-target-class="true" />
 ```
 
-#####3).辅助工具类
+####3).辅助工具类
 ```java
 	//流程引擎api的简易封装
 	com.snakerflow.examples.struts2.engine.SnakerEngineFacets.java
@@ -140,7 +140,7 @@ maven项目可直接添加依赖
     com.snakerflow.examples.struts2.engine.SnakerHelper.java
 ```
 
-#####4).流程定义整合
+####4).流程定义整合
 
 前端页面整合，可以将应用中的jsp页面copy，替换自己项目的样式即可
 ```java
@@ -165,7 +165,7 @@ Web设计器整合
     styles\js\raphael-min.js
 ```
 
-#####5).待办、协办、抄送、历史任务整合
+####5).待办、协办、抄送、历史任务整合
 
 前端页面整合
 ```java
@@ -179,7 +179,8 @@ Web设计器整合
 ```java
 	com.snakerflow.examples.struts2.web.snaker.TaskAction.java
 ```
-#####6).流程实例整合
+
+####6).流程实例整合
 
 前端页面整合
 ```java
@@ -190,7 +191,8 @@ Web设计器整合
 ```java
 	com.snakerflow.examples.struts2.web.snaker.FlowAction.java
 ```
-#####7).委托代理功能整合
+
+####7).委托代理功能整合
 
 前端页面整合
 ```java
@@ -204,8 +206,6 @@ Web设计器整合
 	com.snakerflow.examples.struts2.web.snaker.SurrogateAction.java
 ```
 
-#####8).如何新增流程？
-* [新增流程参考步骤](<http://snakerflow.com/quickstart/addflow.html>)
 
 Contact
 -----
